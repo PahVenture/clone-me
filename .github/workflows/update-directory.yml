@@ -19,6 +19,8 @@ jobs:
 
       - name: Update DIRECTORY.md
         run: |
+          pip install pyyaml
+          
           python - <<EOF
           import os
           import yaml
