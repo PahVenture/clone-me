@@ -1,3 +1,9 @@
+# Clone as Submodule and enjoy with your mentor or nemesis 💪
+
+```bash
+git submodule add git@github.com:username/clone-me.git .clone-me
+```
+
 # Directory of Clones
 
 | Name | GitHub | X | Description |
