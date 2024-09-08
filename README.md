@@ -91,6 +91,21 @@ To ensure a positive and productive environment:
 
 For a complete set of guidelines, see our [Community Standards](link-to-standards).
 
+## Using with CursorAI
+
+For users of the CursorAI code editor, you can easily integrate this clone-me repository as a submodule. This allows CursorAI to access and utilize the knowledge base directly within your coding environment.
+
+To set up:
+
+1. In your project directory, run:
+   ```
+   git submodule add git@github.com:udecode/dotai.git .clone-me
+   ```
+2. This will create a `.clone-me` folder with the contents of this repository.
+3. CursorAI can now access and use the information in this folder to assist you in your coding tasks.
+
+For more detailed instructions and use cases, see the [CursorAI Integration Guide](./use-cases/dot-clone-me-cursor-ai.md).
+
 ---
 
 Join us in revolutionizing how knowledge is shared and utilized. With clone-me, your expertise can impact the world long after you've acquired it.
