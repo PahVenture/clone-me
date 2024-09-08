@@ -1,6 +1,6 @@
 # clone-me
 
-Welcome to clone-me, a community-driven project for creating and sharing personal knowledge repositories! And also, use it in CursorAI or other apps with imports. 
+Welcome to clone-me, a community-driven project for creating and sharing personal knowledge repositories! And also, use it in CursorAI or other apps with imports.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -12,6 +12,8 @@ Welcome to clone-me, a community-driven project for creating and sharing persona
 ## Introduction
 
 clone-me is an innovative, open-source initiative that enables individuals to create "digital clones" of their knowledge and expertise. By structuring personal experiences, skills, and problem-solving approaches into shareable repositories, clone-me aims to democratize expertise and foster global knowledge exchange.
+
+There's nothing better than letting AI and custom instructions guide our AIs to make everything flow more easily. By integrating artificial intelligence and custom instructions into our process, we can optimize the interaction between humans and machines, facilitating more efficient and personalized knowledge transfer.
 
 ### Key Features
 - Open-source framework for personal knowledge management

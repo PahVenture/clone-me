@@ -1,0 +1,53 @@
+name: Update Directory
+
+on:
+  push:
+    paths:
+      - 'directory/**'
+  workflow_dispatch:
+
+jobs:
+  update-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Update DIRECTORY.md
+        run: |
+          python - <<EOF
+          import os
+          import yaml
+
+          def update_directory():
+              directory_path = 'directory'
+              clones = []
+
+              for filename in os.listdir(directory_path):
+                  if filename.endswith('.yml'):
+                      with open(os.path.join(directory_path, filename), 'r') as file:
+                          clone_data = yaml.safe_load(file)
+                          clones.append(clone_data)
+
+              with open('DIRECTORY.md', 'w') as directory_file:
+                  directory_file.write("# Directory of Clones\n\n")
+                  directory_file.write("| Name | Description | Repository Link |\n")
+                  directory_file.write("|------|-------------|------------------|\n")
+                  for clone in clones:
+                      directory_file.write(f"| {clone['name']} | {clone['description']} | [{clone['name']}]({clone['repo_link']}) |\n")
+
+          if __name__ == "__main__":
+              update_directory()
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add DIRECTORY.md
+          git commit -m "Update DIRECTORY.md" || echo "No changes to commit"
+          git push
