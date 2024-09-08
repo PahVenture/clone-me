@@ -26,41 +26,43 @@ Here's an example of how you might structure your clone-me repository based on t
 
 ```
 clone-me/
-├── Personal Profile/
-│   ├── About Me.md
-│   ├── Contact.md
-│   └── ...
-├── Knowledge Base/
-│   ├── Subject 1/
-│   │   ├── Core Concepts.md
-│   │   ├── Historical Context.md
-│   │   └── Current Trends.md
-│   ├── Subject 2/
-│   │   └── ...
-│   └── ...
-├── Methodologies/
-│   ├── Problem-Solving Approaches/
-│   │   ├── Analytical Frameworks.md
-│   │   └── Creative Thinking Techniques.md
-│   ├── Decision-Making Frameworks/
-│   │   └── ...
-│   └── ...
-├── Skills and Techniques/
-│   ├── Technical Skills/
-│   │   ├── Programming Languages.md
-│   │   └── Tools and Software.md
-│   ├── Soft Skills/
-│   │   └── ...
-│   └── ...
-├── Experiences and Case Studies/
-│   ├── Project 1/
-│   │   ├── Overview.md
-│   │   ├── Challenges.md
-│   │   └── Lessons Learned.md
-│   ├── Project 2/
-│   │   └── ...
-│   └── ...
-└── README.md
+└── me/
+    ├── Personal Profile/
+    │   ├── About Me.md
+    │   ├── Contact.md
+    │   └── ...
+    ├── Knowledge Base/
+    │   ├── Subject 1/
+    │   │   ├── Core Concepts.md
+    │   │   ├── Historical Context.md
+    │   │   └── Current Trends.md
+    │   ├── Subject 2/
+    │   │   └── ...
+    │   └── ...
+    ├── Methodologies/
+    │   ├── Problem-Solving Approaches/
+    │   │   ├── Analytical Frameworks.md
+    │   │   └── Creative Thinking Techniques.md
+    │   ├── Decision-Making Frameworks/
+    │   │   └── ...
+    │   └── ...
+    ├── Skills and Techniques/
+    │   ├── Technical Skills/
+    │   │   ├── Programming Languages.md
+    │   │   └── Tools and Software.md
+    │   ├── Soft Skills/
+    │   │   └── ...
+    │   └── ...
+    ├── Experiences and Case Studies/
+    │   ├── Project 1/
+    │   │   ├── Overview.md
+    │   │   ├── Challenges.md
+    │   │   └── Lessons Learned.md
+    │   ├── Project 2/
+    │   │   └── ...
+    │   └── ...
+    └── README.md
+```
 
 ## Additional Structuring Tips
 

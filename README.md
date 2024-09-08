@@ -25,8 +25,8 @@ There's nothing better than letting AI and custom instructions guide our AIs to 
 
 To begin your journey with clone-me:
 
-1. **Fork the Template**: Start by forking the `username+Clone` template repository.
-2. **Customize Your Clone**: Populate your repository with your knowledge, experiences, and methodologies.
+1. **Fork the Template**: Start by forking the `clone-me` repository.
+2. **Customize Your Clone**: Populate your `me`folder with your knowledge, experiences, and methodologies.
 3. **Organize Your Content**: Use the core categories (see below) to structure your information.
 4. **Share and Collaborate**: Make your repository public and engage with the community.
 
