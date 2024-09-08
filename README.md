@@ -38,34 +38,10 @@ For detailed instructions, check out our [Beginner's Guide](docs/beginners-guide
 Organize your clone-me repository using these five main categories:
 
 1. **Personal Profile**
-   - Biography
-   - Areas of expertise
-   - Professional journey
-   - Learning philosophy
-
 2. **Knowledge Base**
-   - Subject-specific information
-   - Theoretical foundations
-   - Practical applications
-   - Resources and references
-
 3. **Methodologies**
-   - Problem-solving approaches
-   - Decision-making frameworks
-   - Project management techniques
-   - Research methodologies
-
 4. **Skills and Techniques**
-   - Technical skills
-   - Soft skills
-   - Tools and technologies
-   - Best practices and tips
-
 5. **Experiences and Case Studies**
-   - Project showcases
-   - Lessons learned
-   - Challenges overcome
-   - Success stories and failures
 
 For guidelines on populating each category, refer to our [Content Structure Guide](link-to-guide).
 
@@ -99,7 +75,8 @@ To set up:
 
 1. In your project directory, run:
    ```
-   git submodule add git@github.com:udecode/dotai.git .clone-me
+   git submodule add git@github.com:my-mentor/clone-me.git .clone-me/my-mentor-clone
+   git submodule add git@github.com:my-nemesis/clone-me.git .clone-me/my-nemesis-clone
    ```
 2. This will create a `.clone-me` folder with the contents of this repository.
 3. CursorAI can now access and use the information in this folder to assist you in your coding tasks.

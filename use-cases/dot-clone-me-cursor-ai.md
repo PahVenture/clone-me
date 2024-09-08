@@ -6,7 +6,7 @@ This guide explains how to integrate and use your clone-me repository with Curso
 
 1. In your project's root directory, add the clone-me repository as a submodule:
    ```
-   git submodule add git@github.com:udecode/dotai.git .clone-me
+   git submodule add git@github.com:username/clone-me.git .clone-me
    ```
 2. This creates a `.clone-me` folder containing your knowledge base.
 
