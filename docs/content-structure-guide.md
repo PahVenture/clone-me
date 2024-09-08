@@ -87,4 +87,7 @@ clone-me/
 7. Regular Review and Refactoring
    - Schedule periodic reviews of your content structure to ensure it remains organized and relevant as your knowledge grows.
 
+8. Profile Information
+   - Create a YAML file in the `directory` folder (e.g., `@yourusername.yaml`) with your profile information for automatic indexing.
+
 By following these guidelines and adapting the structure to your specific needs, you'll create a well-organized and easily navigable clone-me repository that effectively showcases your knowledge and expertise.

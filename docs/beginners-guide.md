@@ -7,9 +7,20 @@ Welcome to the clone-me project! This guide will help you get started with creat
 1. Fork the Template
 2. Customize Your Clone
 3. Organize Your Content
-4. Share and Collaborate
+4. Add Your Profile
+5. Share and Collaborate
 
-(Expand on each step with more detailed instructions)
+### 1. Fork the Template
+// ... existing instructions ...
+
+### 2. Customize Your Clone
+// ... existing instructions ...
+
+### 3. Organize Your Content
+// ... existing instructions ...
+
+### 4. Add Your Profile
+Create a YAML file in the `directory` folder with your GitHub username as the filename (e.g., `@yourusername.yaml`). Include the following information:
 
 ## Tips for Success
 

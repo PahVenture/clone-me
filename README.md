@@ -28,9 +28,10 @@ To begin your journey with clone-me:
 1. **Fork the Template**: Start by forking the `clone-me` repository.
 2. **Customize Your Clone**: Populate your `me`folder with your knowledge, experiences, and methodologies.
 3. **Organize Your Content**: Use the core categories (see below) to structure your information.
-4. **Share and Collaborate**: Make your repository public and engage with the community.
+4. **Add Your Profile**: Create a YAML file in the `directory` folder (e.g., `@yourusername.yaml`) with your profile information.
+5. **Share and Collaborate**: Make your repository public and engage with the community.
 
-For detailed instructions, check out our [Beginner's Guide](link-to-guide).
+For detailed instructions, check out our [Beginner's Guide](docs/beginners-guide.md).
 
 ## Core Categories
 
