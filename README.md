@@ -43,7 +43,7 @@ Organize your clone-me repository using these five main categories:
 4. **Skills and Techniques**
 5. **Experiences and Case Studies**
 
-For guidelines on populating each category, refer to our [Content Structure Guide](link-to-guide).
+For guidelines on populating each category, refer to our [Content Structure Guide](docs/content-structure-guide.md).
 
 ## Contributing
 
@@ -54,7 +54,7 @@ clone-me thrives on community contributions. Here's how you can participate:
 3. **Curate Content**: Help organize and improve existing repositories.
 4. **Spread the Word**: Share clone-me with your network and encourage participation.
 
-Check our [Contribution Guidelines](link-to-guidelines) for more details.
+Check our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ## Community Guidelines
 
@@ -65,7 +65,7 @@ To ensure a positive and productive environment:
 4. **Engage Constructively**: Provide helpful feedback and be open to suggestions.
 5. **Stay Ethical**: Avoid sharing harmful or illegal content.
 
-For a complete set of guidelines, see our [Community Standards](link-to-standards).
+For a complete set of guidelines, see our [Community Standards](docs/community-standards.md).
 
 ## Using with CursorAI
 
@@ -81,12 +81,12 @@ To set up:
 2. This will create a `.clone-me` folder with the contents of this repository.
 3. CursorAI can now access and use the information in this folder to assist you in your coding tasks.
 
-For more detailed instructions and use cases, see the [CursorAI Integration Guide](./use-cases/dot-clone-me-cursor-ai.md).
+For more detailed instructions and use cases, see the [CursorAI Integration Guide](use-cases/dot-clone-me-cursor-ai.md).
 
 ---
 
 Join us in revolutionizing how knowledge is shared and utilized. With clone-me, your expertise can impact the world long after you've acquired it.
 
-For questions or support, join our [Community Forum](link-to-forum) or contact us at support@clone-me.org.
+For questions or support, join our [Community Forum](https://github.com/my-mentor/clone-me/discussions) or contact us at clone-me@pahventure.com.
 
 clone-me: Your knowledge, amplified.
