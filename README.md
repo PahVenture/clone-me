@@ -1,4 +1,4 @@
-# clone-me
+# clone-me 🤖
 
 Welcome to clone-me, a community-driven project for creating and sharing personal knowledge repositories! And also, use it in CursorAI or other apps with imports.
 

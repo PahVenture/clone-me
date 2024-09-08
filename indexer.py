@@ -36,6 +36,10 @@ def update_directory():
                 clones.append(clone_data)
 
     with open('DIRECTORY.md', 'w') as directory_file:
+        directory_file.write("# Clone as Submodule and enjoy with your mentor or nemesis 💪\n\n")
+        directory_file.write("```bash\n")
+        directory_file.write("git submodule add git@github.com:username/clone-me.git .clone-me\n")
+        directory_file.write("```\n\n")
         directory_file.write("# Directory of Clones\n\n")
         directory_file.write("| Name | GitHub | X | Description |\n")
         directory_file.write("|------|--------|---|-------------|\n")
